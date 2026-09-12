@@ -1,8 +1,8 @@
 cask "infaiw" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.3.0"
-  sha256 arm: "afce2fb0c43e72a5e25c74166885e0b1a69ab1834add83de21464cbde4320240", intel: "65e402bf908d74cb36cbd5d4e26ee37cacfb5ca063590577a99169f7d920bc5e"
+  version "0.4.0"
+  sha256 arm: "b0138b98c9ef0a601aeb4c02d2811a32800fa44703964b6fea4490b904f437ce", intel: "78af74ebae6b4f4e6ff417dc3e6bb30cea8486b3f589f5b826198c76b3eabcc4"
 
   url "https://github.com/dipankardas011/infai/releases/download/infaiw-v#{version}/infaiw_#{version}_darwin_#{arch}.tar.gz"
   name "infaiw"
