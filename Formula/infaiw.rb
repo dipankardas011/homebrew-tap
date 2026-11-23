@@ -1,28 +1,28 @@
 class Infaiw < Formula
   desc "Agent and workflow engine for infai"
   homepage "https://github.com/dipankardas011/infai"
-  version "0.35.0"
+  version "0.36.0"
   license "Apache-2.0"
 
   on_macos do
     on_intel do
       url "https://github.com/dipankardas011/infai/releases/download/infaiw-v#{version}/infaiw_#{version}_darwin_amd64.tar.gz"
-      sha256 "5b7799c588495869e4cb7100c221c62c9dd8546ae9e49a5400379114811b6041"
+      sha256 "58189303065cc699731b316eaaadd147eaca995c09bb072674d5e493ef85b678"
     end
     on_arm do
       url "https://github.com/dipankardas011/infai/releases/download/infaiw-v#{version}/infaiw_#{version}_darwin_arm64.tar.gz"
-      sha256 "f39e744da4ccbf9e0133f889efba86f80471714d7eb280e0a028ec330ef8cb6e"
+      sha256 "a1dd0aa4f1f2e6668ab597b5c6c43c521c813d8b04074ff3cf7f27a512854a79"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/dipankardas011/infai/releases/download/infaiw-v#{version}/infaiw_#{version}_linux_amd64.tar.gz"
-      sha256 "642b6d32a74bf98c3b1517cbfd36e3e11c1dce3d0fa880cd04df8eed0ca334b9"
+      sha256 "7a57b43151392a8bf1be432636be712e5a6554beab189bcabb003ccd9db05590"
     end
     on_arm do
       url "https://github.com/dipankardas011/infai/releases/download/infaiw-v#{version}/infaiw_#{version}_linux_arm64.tar.gz"
-      sha256 "a05fd2a974fb870a6a166e311d458c4225a6829f6070c0b380984d5f100f1023"
+      sha256 "506a088931bca9d4fadb7506aa25660097e01787d32ab333062bb1ba0bf1dd7b"
     end
   end
 
